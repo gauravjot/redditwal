@@ -231,7 +231,7 @@ input[type="text"]:hover {
 	border-bottom-left-radius: 0.45rem;
 	border-bottom-right-radius: 0.45rem;
 	width: 100%;
-	background: linear-gradient(transparent, rgba(0, 0, 0, 0.95));
+	background: linear-gradient(transparent, rgba(0,0,0, 0.75));
 	padding-top: 4rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -325,16 +325,13 @@ input[type="text"]:hover {
 }
 
 .lds-dual-ring {
-	width: 80px;
-	height: 80px;
 	margin: auto;
 }
 .lds-dual-ring:after {
-	content: " ";
+	content: "";
 	display: block;
 	width: 64px;
 	height: 64px;
-	margin: 8px;
 	border-radius: 50%;
 	border: 6px solid #fff;
 	border-color: #fff transparent #fff transparent;
@@ -423,4 +420,24 @@ input[type="text"]:hover {
 	.card img {
 		max-height: 1000px;
 	}
+}
+
+.stay-fixed-br {
+	position:fixed;
+	bottom:0;
+	right:0;
+	padding:1rem 0.75rem 0.75rem 1rem;
+	background:rgba(255,255,255, 0.15);
+	backdrop-filter: blur(5px);
+	border-top-left-radius: 2rem;
+}
+
+.stay-fixed-br .lds-dual-ring {
+	margin:0;
+}
+
+.stay-fixed-br .lds-dual-ring::after {
+	width:40px;
+	height:40px;
+	border-width: 5px;
 }

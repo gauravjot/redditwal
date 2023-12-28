@@ -15,6 +15,7 @@ export default function WallpaperCard({ baseURL, wallpaper, nsfwFilter }) {
 				src={wallpaper.preview.images[0].resolutions[
 					wallpaper.preview.images[0].resolutions.length - 1
 				].url.replaceAll("amp;", "")}
+				loading="lazy"
 				alt={wallpaper.title}
 			/>
 			<div className="description">
