@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/redditwal/static/css/main.1eca81f4.css",
+    "main.js": "/redditwal/static/js/main.20139bdd.js",
+    "index.html": "/redditwal/index.html",
+    "main.1eca81f4.css.map": "/redditwal/static/css/main.1eca81f4.css.map",
+    "main.20139bdd.js.map": "/redditwal/static/js/main.20139bdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eca81f4.css",
+    "static/js/main.20139bdd.js"
+  ]
+}
